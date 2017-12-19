@@ -38,7 +38,7 @@ int main(void) {
 
 	//Listen
 	listen(listenfd, 10);
-	printf("Server start listening on prot 3400\n");
+	printf("Server start listening on port 3400\n");
 
 	//Create epoll, efd is the root node of the red blacktree
 	efd = epoll_create(OPEN_MAX);

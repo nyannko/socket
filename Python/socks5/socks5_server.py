@@ -55,7 +55,6 @@ def handle_con(sock, addr):
     data = sock.recv(4)
     
     # check CMD mode
-
     mode = ord(data[1])
     if mode != 1:
         print "Not a TCP connection."
